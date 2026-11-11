@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tela-login</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="main-container">
+        <header class="header-container">
+            <img class="logo-riot" src="img/riot-logo.png" alt="Riot Games Logo">
+        </header>
+
+        <section class="content-login">
+            <h1>SIGN IN</h1>
+            
+            <form class="login-form">
+                <div class="input-group">
+                    <input type="text" id="username" placeholder="USERNAME" required>
+                </div>
+                
+                <div class="input-group">
+                    <input type="password" id="password" placeholder="PASSWORD" required>
+                </div>
+
+                <div class="form-options">
+                    <label class="remember-me">
+                        <input type="checkbox" id="remember">
+                        <span>remenber me</span>
+                        <span>Forgot Password</span>
+                    </label>
+                </div>
+
+                <button type="sing-in" class="btn-sing-in">sing-in</button>
+            </form>
+        </section>
+
+        <footer class="footer-container">
+            <span>CAN'T SIGN IN?</span>
+            <span>CREATE ACCOUNT</span>
+        </footer>
+    </main>
+</body>
+</html>
+
